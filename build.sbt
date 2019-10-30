@@ -19,7 +19,7 @@ scaladocBranch := "master"
 
 scalacOptions in (Compile, doc) ++= { Seq(
   "-sourcepath", baseDirectory.value.getAbsolutePath,
-  "-doc-source-url", s"https://github.com/peg_collection/peg_ruby/tree/${scaladocBranch.value}€{FILE_PATH}.scala"
+  "-doc-source-url", s"https://github.com/peg-collection/peg-ruby/tree/${scaladocBranch.value}€{FILE_PATH}.scala"
 )}
 
 scalacOptions ++= {
@@ -45,7 +45,7 @@ initialCommands in console += {
 }
 
 pomExtra := (
-  <url>https://github.com/peg_collection/peg_ruby</url>
+  <url>https://github.com/peg-collection/peg-ruby</url>
   <licenses>
     <license>
       <name>The MIT License</name>
@@ -54,8 +54,8 @@ pomExtra := (
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:peg_collection/peg_ruby.git</url>
-    <connection>scm:git:git@github.com:peg_collection/peg_ruby.git</connection>
+    <url>git@github.com:peg-collection/peg-ruby.git</url>
+    <connection>scm:git:git@github.com:peg-collection/peg-ruby.git</connection>
   </scm>
   <developers>
     <developer>
